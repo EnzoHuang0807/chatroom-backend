@@ -2043,6 +2043,11 @@ buffer@^5.6.0:
     base64-js "^1.3.1"
     ieee754 "^1.1.13"
 
+bupper@*:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/bupper/-/bupper-2.0.0.tgz#355808dc3e8e871d42eabf13c365ecd15a30eb79"
+  integrity sha512-+qAnqze4wSAiTixXS+AMTC8axJ9o6nQNfPsRhpCxSRYUpYHdbcf5DC2xhz4eWuKrjTS9Z7j4mageXwf5Y0hfvQ==
+
 busboy@^1.6.0:
   version "1.6.0"
   resolved "https://registry.yarnpkg.com/busboy/-/busboy-1.6.0.tgz#966ea36a9502e43cdb9146962523b92f531f6893"
@@ -2162,6 +2167,11 @@ define-properties@^1.1.3, define-properties@^1.1.4:
     has-property-descriptors "^1.0.0"
     object-keys "^1.1.1"
 
+dever@*:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/dever/-/dever-2.0.0.tgz#e5b3224a61590dc2660bc965e0016a72c47e9074"
+  integrity sha512-E2GrxkvHoJBvgFsA+zVchafgzyp62+tVkUXyJXossUJ7E/hYKYZAyD1Ro9DJ04Zz+MasBZAMSYatW3EyZm/DRw==
+
 dotenv-defaults@^5.0.2:
   version "5.0.2"
   resolved "https://registry.yarnpkg.com/dotenv-defaults/-/dotenv-defaults-5.0.2.tgz#065c410ea516011651e9c60dae0c8902ec53d609"
@@ -2248,6 +2258,13 @@ event-target-shim@^5.0.0:
   version "5.0.1"
   resolved "https://registry.yarnpkg.com/event-target-shim/-/event-target-shim-5.0.1.tgz#5d4d3ebdf9583d63a5333ce2deb7480ab2b05789"
   integrity sha512-i/2XbnSz/uxRCU6+NdVJgKWDTM427+MqYbkQzD321DuCQJUqOuJKIA0IM2+W2xtYHdKOmZ4dR6fExsd4SXL+WQ==
+
+eventy@*:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/eventy/-/eventy-2.0.0.tgz#c1d343b24a87a364103be31661736d317cced0f5"
+  integrity sha512-byigd0yQhpzWzM8fJnTlNGGACiT3uMBSzO5XawrDRTpQts+oe7d5/KXZF9lu99itS9L+LCaZkx2sar2olN0tDg==
+  dependencies:
+    dever "*"
 
 fast-xml-parser@4.0.11:
   version "4.0.11"
@@ -2750,6 +2767,15 @@ node-fetch@^2.6.7:
   dependencies:
     whatwg-url "^5.0.0"
 
+node-http@^0.0.5:
+  version "0.0.5"
+  resolved "https://registry.yarnpkg.com/node-http/-/node-http-0.0.5.tgz#5f506cfab89422f59eeedcb68e8b49aa2e8a52a1"
+  integrity sha512-wmt/GCOR502I6iGUx4utpQytTUfSag+WsEFpnVfCqdx2p/iVCV8RJqshvuUHUWxSjR8USx1poJ+hdQAaDzYC5w==
+  dependencies:
+    bupper "*"
+    eventy "*"
+    reges "*"
+
 node-releases@^2.0.6:
   version "2.0.8"
   resolved "https://registry.yarnpkg.com/node-releases/-/node-releases-2.0.8.tgz#0f349cdc8fcfa39a92ac0be9bc48b7706292b9ae"
@@ -2938,6 +2964,11 @@ regenerator-transform@^0.15.1:
   integrity sha512-knzmNAcuyxV+gQCufkYcvOqX/qIIfHLv0u5x79kRxuGojfYVky1f15TzZEu2Avte8QGepvUNTnLskf8E6X6Vyg==
   dependencies:
     "@babel/runtime" "^7.8.4"
+
+reges@*:
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/reges/-/reges-0.0.3.tgz#50e7f6411a446c3b42108e54d30bc5497d3decc7"
+  integrity sha512-RksZndc8dLg6iejwGgGDs+ukwCqnT5JP4xGkIHjMQfVJ3e7hiuiMLybWt3uGDC2dDHnsvqW6NNTGJWLQ7PTQZw==
 
 regexp.prototype.flags@^1.4.3:
   version "1.4.3"

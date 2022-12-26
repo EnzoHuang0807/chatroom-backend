@@ -8,6 +8,7 @@
     "graphql-ws": "^5.11.2",
     "graphql-yoga": "^3.1.1",
     "mongoose": "^6.8.0",
+    "node-http": "^0.0.5",
     "ws": "^8.11.0"
   },
   "scripts": {
